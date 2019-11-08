@@ -1,0 +1,115 @@
+*{
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+background-color: rgb(22, 40, 100);
+}
+
+
+/* Eng Break Logo  */
+
+header img {
+    width: 120px;
+}
+
+main {
+    position: relative;
+    background-image: url(img/background.jpg);
+    width: 1349px;
+    height: 654px;
+    background-position: 53% 41%;
+}
+
+
+
+main img {
+ position: absolute ;
+ width: 200px;
+ border-radius: 50%;
+ cursor: pointer;
+
+}
+.tv {
+    color: black;
+    position: relative;
+    width: 460px;
+    bottom: -331px;
+    right: -426px;
+    height: 269px;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 40px;
+    margin-top: -22px;
+}
+.turn-off {
+    text-align: center;
+    background-color:rgba(51, 53, 61,0.5);
+    padding-bottom:155px;
+    border-radius:20px;     
+    
+}
+.turn-off img {
+    position: relative;
+    width: 140px;
+    bottom: -48px;
+
+}
+.turn-off p{
+    display: inline-block;
+}
+section section {
+    position: absolute;
+    width: 100%;
+    
+}
+#img1 {
+animation-name: top-img ;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+}
+
+@keyframes top-img {
+    0% {
+        transform: translate(850px,0px);
+    }
+    50% {
+        transform: translate(500px,0px);
+    }
+    100% {
+        transform: translate(850px,0px);
+    }
+}
+#img2 {
+    animation-name: right-img ;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes right-img {
+        0% {
+            transform: translate(1000px,300px);
+        }
+        50% {
+            transform: translate(1000px,400px);
+        }
+        100% {
+            transform: translate(1000px,300px);
+        }
+    }
+        #img3 {
+            animation-name: left-img ;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            }
+            @keyframes left-img {
+                0% {
+                    transform: translate(100px,300px);
+                }
+                50% {
+                    transform: translate(100px,450px);
+                }
+                100% {
+                    transform: translate(100px,300px);
+                }
+
+    
